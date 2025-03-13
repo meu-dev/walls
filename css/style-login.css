@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
     .inicio {
@@ -35,6 +36,9 @@
         transition: ease-in-out 0.5s;
     }
    
+=======
+@media (max-width: 767.98px) {
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
 body {
     font-family: swiza;
     background-color: grey
@@ -79,7 +83,11 @@ color: #eee;
 font-size: 1rem;
 height: 100%;
 outline: 0;
+<<<<<<< HEAD
 padding: 10px ;
+=======
+padding: 10px 20px 0;
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
 width: 100%;
 }
 
@@ -87,6 +95,7 @@ width: 100%;
     color: lightgrey;
     font-family: swiza;
 }
+<<<<<<< HEAD
 
 select {
     margin-bottom: 1rem;
@@ -125,6 +134,8 @@ textarea::placeholder {
     color: lightgrey;
     font-family: swiza;
 }
+=======
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
 .btn{
     background-color: black;
     padding-top: 0.3rem;
@@ -132,6 +143,7 @@ textarea::placeholder {
     text-transform: uppercase;
 
 }
+<<<<<<< HEAD
 .pass{
     
         padding-left: 80px; /* Ajuste para dar espacio al icono */
@@ -148,4 +160,8 @@ textarea::placeholder {
 }
        
 
+=======
+       
+}
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
     

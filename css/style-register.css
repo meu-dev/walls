@@ -52,10 +52,13 @@
         text-transform: uppercase;
 
     }
+<<<<<<< HEAD
 
     #error, #emptyFieldsError {
         color: red;
         display: none;
       }
+=======
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
            
     }

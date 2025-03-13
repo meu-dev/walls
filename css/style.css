@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 :root {
     /* Typography */
     --font-swiza: "swiza", sans-serif;
@@ -16,6 +17,9 @@
     --bulevard-regular: 500;
     --bulevard-poster: 800;
 }
+=======
+
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
 
 /* TYPEFACE SWIZA IMPORT */
 
@@ -77,6 +81,7 @@
 
 }
 
+<<<<<<< HEAD
 
    
    .logo-principal{
@@ -88,10 +93,14 @@
     font-size: 3rem;
    }
    
+=======
+@media (max-width: 767.98px) {
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
     .container{
         position: relative;
     }
 
+<<<<<<< HEAD
     .inicio {
         top: 0;
         left: 0;
@@ -133,6 +142,40 @@
         opacity: 0;
         transition: ease-in-out 0.5s;
     }
+=======
+.inicio{
+    top:0;
+    left:0;
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec6356;
+    z-index: 1;
+    transition: 1s;
+    opacity: 0.5;
+}
+.logo {
+    color: #eeb794;
+    font-family: bulevard;
+    font-weight: 800;
+    font-size: 17rem;
+ /*opacity: 0;**/
+    transform: translate(-50%,-50%);
+}
+.logo.active{
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+.logo.fade{
+   
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
 
 #my_map {
     position: absolute;
@@ -142,6 +185,7 @@
     height: 100vh;
    z-index: -100;
 }
+<<<<<<< HEAD
 
 /* Estilo para la barra de menú en la parte inferior */
 .bottom-menu {
@@ -172,3 +216,7 @@
     }
    
 
+=======
+   
+ }
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692

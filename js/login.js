@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function loguear() {
   const user = document.getElementById("usuario").value;
   const password = document.getElementById("pass").value;
@@ -58,3 +59,22 @@ $(document).ready(function () {
     }
   });
 });
+=======
+function loguear()
+{
+
+    const user=document.getElementById('usuario').value;
+    const password=document.getElementById('pass').value;
+
+
+    if(user == 'user' && password == "12345")
+    {
+        window.location="index.html";
+    }
+    else
+    {
+        alert("Datos incorrectos")
+    }
+
+}
+>>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
