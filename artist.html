@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style-artist.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Artist Directory</title>
+  </head>
+  <body>
+    <main class="search-container">
+      <header>
+        <form class="search-bar" role="search">
+          <i class="bx bx-search"></i>
+          <input type="search" placeholder="Buscar..." />
+          <i class="bx bx-x" id="close-btn"></i>
+        </form>
+
+        <nav class="filter-section">
+          <ul class="filter-scroll">
+            <li><button class="filter-btn active">All</button></li>
+            <li><button class="filter-btn">Street Art</button></li>
+            <li><button class="filter-btn">Murales</button></li>
+            <li><button class="filter-btn">Graffiti</button></li>
+            <li><button class="filter-btn">Ilustración</button></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="artists-list">
+        <article class="artist-card">
+          <div class="artist-info">
+            <h2>Artista 1</h2>
+            <address>Avenida Balaidos, 60 7b 36210 vigo Pontevedra</address>
+          </div>
+          <a href="#" class="globe-icon">
+            <i class="bx bx-globe"></i>
+          </a>
+        </article>
+
+        <article class="artist-card">
+          <div class="artist-info">
+            <h2>Artista 2</h2>
+            <address>Avenida Balaidos, 60 7b 36210 vigo Pontevedra</address>
+          </div>
+          <a href="#" class="globe-icon">
+            <i class="bx bx-globe"></i>
+          </a>
+        </article>
+      </section>
+
+      <nav class="bottom-menu">
+        <a href="#" title="User">
+          <i class="bx bx-user"></i>
+        </a>
+        <a href="#" title="Search">
+          <i class="bx bx-search"></i>
+        </a>
+        <a href="#" title="Settings">
+          <i class="bx bx-book-add"></i>
+        </a>
+      </nav>
+    </main>
+  </body>
+</html>

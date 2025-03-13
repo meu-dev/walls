@@ -1,0 +1,161 @@
+
+{
+    "artistas": [
+        {
+            "name": "Eva Casais",
+            "descripcion": "Ilustradora y muralista desde finales de 2018 cuando empezó a producir su propia obra. Su trabajo se centra en retratos en acuarela, mezclando diferentes técnicas y elementos. Su obra en murales la hace con pintura plástica, y en ocasiones usa pistola para conseguir efectos de degradado. Ha expuesto en el museo Liste en Vigo, en el espacio artístico Rampa en Linales y en el Concello de Boqueixón como parte de un homenaje a la joven Ana Enjamio, entre otros muchos lugares. ",
+            "proyectos": [
+                {
+                    "nombre": "Mural-v1",
+                    "imagen": "../assets/img/exiles_02.jpg",
+                    "descripcion": "Este proyecto nace de un interés personal en la historia del fútbol y de dar a conocer los inicios de este deporte no sólo en Galicia, sino también a nivel nacional. El Exiles Football Club, de ahora en adelante Exiles F.C., se fundó a finales del siglo XIX en Vigo por un grupo de trabajadores ingleses que se trasladó a Galicia para ejecutar el mantenimiento del Cable Inglés.",
+                    "categoria": "Mural/ilustracion",
+                    "direccion": "Fonte do Luns – Matamá, Rúa do Castro, 19, 36213 Vigo, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Pablo Loyola",
+            "descripcion": "En estos años ha pintado en todo tipo de localizaciones, desde colegios a gimnasios y espacios públicos. De formación académica como ingeniero y apasionado por el arte, el ve una gran conexión entre los dos campos. Ambos requieren atención al detalle y habilidades para resolver problemas. La ingeniería le enseñó a ser muy detallista y a tener una mentalidad analítica, lo que le ayuda a planificar cada proyecto artístico con precisión. Por otro lado el arte le permite expresar su creatividad de manera personal y plasmar emociones y sentimientos. Además valora el hecho de que puede ser una forma de comunicación universal. Su objetivo es que sus trabajos embellezcan los espacios transmitiendo mensajes o simplemente que la gente los contemple y los aprecie. ",
+            "proyectos": [
+                {
+                    "nombre": "Mural-V2",
+                    "imagen": "../assets/img/campaña_xyz.jpg",
+                    "descripcion": "Una campaña visual para la marca XYZ, donde se combinan técnicas tradicionales con digitalización avanzada para crear un impacto visual único.",
+                    "categoria": "Mural/ilustracion",
+                    "direccion": "Rúa Robleda, 118, Teis, 36207 Vigo, Pontevedra"
+                } 
+            ]
+        },
+        {
+            "name": "Zësar Bahamonte",
+            "descripcion": "DArtista visual y urbano. Nació en Sevilla, donde creció dibujando comics y pintando graffiti hasta que orientó sus estudios hacia el arte visual. Al terminar sus estudios se fue a Sudamérica donde perfeccionó su propio estilo, estética y concepto. Con su trabajo, confía en la forma y el color como los pilares de su personalidad y pensamiento retratando así a las personas que hacen y dejan hacer. Reproduce la belleza de las relaciones humanas, en el amor, en la creación y en la amistad, y las entiende como el hecho que nos acerca a nuestra naturaleza humana. Usa paletas de colores vibrantes y armónicas, combinadas con formas libres, sinuosas e ingrávidas. En los últimos años ha repartido murales en gran parte de América del Sur y Europa, incluyendo lugares destacados como Sao Paulo, ciudad de México, Barcelona, Lisboa, Buenos Aires, Bogotá, Jerusanlem, Amsterdam o París.",
+            "proyectos": [
+                {
+                    "nombre": "Mural-v3",
+                    "imagen": "../assets/img/startup.jpg",
+                    "descripcion": "Rediseño de la marca para una nueva start-up, con un enfoque fresco y vanguardista.",
+                    "categoria": "Mural",
+                    "direccion": "Rúa Ourense, 14, Freixeiro, 36211 Vigo, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Ana Langeheldt",
+            "descripcion": "Es una artista plástica multidisciplinar residente en Sevilla. Mujer pionera y referente en el arte urbano de España desde el año 2001, donde también es conocida como Lahe178, abreviatura de su apellido de ascendente alemán. Su trayectoria como artista urbana se desarrolla paralelamente a su faceta como artista plástica, la cual se desarrolla desde edad muy temprana, licenciándose en Bellas Artes en 2003, en la universidad de Sevilla. Ha trabajado para marcas y empresas como Festival de cine europeo de Sevilla, Freixenet, Anaya, etc; participado en numerosos proyectos y exhibiciones como B-murals Barcelona, Rexenerafest Coruña, etc. Su arte es una mezcla de estilos y colores. Prefiere todo tipo de arte en el que sea imprescindible el contacto físico con la materia. Actualmente reside y trabaja en su estudio de Sevilla.",
+            "proyectos": [
+                {
+                    "nombre": "Diseño Editorial para Revista Cultural",
+                    "imagen": "../assets/img/revista_cultural.jpg",
+                    "descripcion": "Diseño y maquetación para una revista cultural enfocada en las artes y la literatura.",
+                    "categoria": "Mural",
+                    "direccion": "Rúa dos Irmáns Misioneiros dos Enfermos Pobres, 12, Teis, 36207 Vigo, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Expostas",
+            "descripcion": "Es un proyecto nacido de la colaboración de diferentes mujeres relacionadas con el arte urbano, el activismo a través del arte y el cambio social. No solo es interesante, si no necesario, analizar como se aborda tradicionalmente la naturaleza de la representación femenina en el arte contemporáneo en general , y en el arte urbana en particular. La importancia de analizar la representación de la mujer en el arte urbano y de buscar formas de figuración que contribuyan al empoderamiento de la mujer a través del arte, radica en el hecho de que las imágenes son herramientas efectivas para crear, reproducir y transmitir significados.",
+            "proyectos": [
+                {
+                    "nombre": "Instalación Mural Interactivo",
+                    "imagen": "../assets/img/mural_interactivo.jpg",
+                    "descripcion": "Creación de un mural interactivo que permite al público participar activamente en la obra.",
+                    "categoria": "Mural/ilustracion",
+                    "direccion": "Rúa da Travesía de Vigo, 222, Teis, 36207 Vigo"
+                }
+            ]
+        },
+        {
+            "name": "Victor Playincolors",
+            "descripcion": "Victor García, es un artista multidisciplinar que tiñe de color los espacios deportivos y edificios en desuso. Le gusta pintar en el suelo y jugar con la pintura. “Play in colors” es la técnica de este artista malagueño. Pinta en cualquier tipo de superficie como las pintas deportivas que son de hormigón gris y se asemejan a un lienzo. Estudió Marketing y Relaciones públicas, pero lleva pintando desde los 10 años y el graffiti siempre ha estado en su vida. Se ha formado en Barcelona y Estados Unidos. Entre sus trabajos está el silo de Archidona que ha llenado de color el pueblo.",
+            "proyectos": [
+                {
+                    "nombre": "Arte Conceptual para Videojuego",
+                    "imagen": "../assets/img/concepto_videojuego.jpg",
+                    "descripcion": "Diseño de personajes y escenarios para un videojuego de aventura.",
+                    "categoria": "Concept Art",
+                    "direccion": " Freijeiro, 36204 Vigo, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Slim Safont",
+            "descripcion": "Nacido en Barcelona y licenciado en Bellas Artes. A los 12 años comenzó a adentrarse en el universo del arte urbano y la pintura. Su nombre está presente tanto a nivel nacional como internacional. Su obra y su investigación pictórica representan la búsqueda constante de una visión personal y representativa de los aspectos sociales que considera significativos a su alrededor, a través de un lenguaje pictórico figurativo, realista y de carácter neo impresionista. Muralista y pintor, interesado principalmente en el arte urbano y las intervenciones en el espacio público, sus obras son pinturas de gran formato que utilizan las paredes de las calles como lienzo. Trabaja temas ligados a lo cotidiano utilizando un lenguaje visual que pueda generar conciencia. Los principales temas de su obra giran en torno a la educación, el adoctrinamiento y el comportamiento humano y su relación con las figuras de poder que lo rodean. ",
+            "proyectos": [
+                {
+                    "nombre": "Ilustración para Libro Infantil",
+                    "imagen": "../assets/img/libro_infantil.jpg",
+                    "descripcion": "Ilustración para un cuento infantil que combina técnicas tradicionales y digitales.",
+                    "categoria": "Ilustración",
+                    "direccion": "Ilustración"
+                }
+            ]
+        },
+        {
+            "name": "Vanesa Alvarez",
+            "descripcion": "Es una artista gráfica de Vigo que vive y trabaja en New York, donde realiza proyectos como muralista, centrados en la visibilización de la mujer a través del arte urbano. Titulada en Artes plásticas y diseño. Partició en festivales artísticos y literarios en Vigo (Kerouac, Vigo cidade de cor), Madrid (Pintamalasaña) o Nueva York (Casa Galicia, Instituto Cervantes), entre otros.  Actualmente imparte clases de muralismo y justicia social en el barrio del Bronx y realizó la residencia artística Project Art USA. Pintó un colorido lienzo de 2200 metros en el pavimento de las calles peatonales entre Broadway y Union Square West que homenajea a los inmigrantes, a las madres y a los nativos americanos, también conciencia contra el cambio climático. Se confiesa creyente en el poder curativo del arte y del color.",
+            "proyectos": [
+                {
+                    "nombre": "Rediseño de Marca para Restaurante",
+                    "imagen": "../assets/img/restaurante_marca.jpg",
+                    "descripcion": "Rediseño completo de la marca de un restaurante, desde el logotipo hasta el diseño del menú y material de marketing.",
+                    "categoria": "Branding",
+                    "direccion": "Av. de Castelao, 26, Coia, 36208 Vigo, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Iria Fafian",
+            "descripcion": "Iria es una ilustradora nacida en 1988 en Cataluña y crecida en Galicia. Siempre le ha apasionado dibujar, por eso estudió Bellas Artes, y durante su Erasmus en Angoulême se dio cuenta de que quería dedicarse profesionalmente a ilustrar. Ha publicado albums ilustrados y colaborado con editoriales. Su estilo es personal y versátil, y casi siempre trabaja de forma manual en busca de resultados nuevos. Le parece muy enriquecedor tener una inquietud artística, tanto en concepto como en estilo, por eso cada día intenta renovarse y aprender de su pasión: el dibujo.",
+            "proyectos": [
+                {
+                    "nombre": "Ilustración para Cómic Fantástico",
+                    "imagen": "../assets/img/comic_fantastico.jpg",
+                    "descripcion": "Ilustración para un cómic de fantasía que transporta al lector a un mundo épico y lleno de aventuras.",
+                    "categoria": "Ilustración",
+                    "direccion": "Estrada de Clara Campoamor, s/n, 36315 Valadares, Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Avione",
+            "descripcion": "Desde que era niño le gusta dibujar, atrayéndole especialmente la estética del cómic y el grafitti. Durante su adolescencia comienza a escribir sus primeras letras y a crear personajes por las calles de Vigo. Esta introducción a la pintura le lleva, años después, a estudiar Bellas Artes, especializándose en pintura y dibujo. A continuación amplía su formación en artes gráficas, en la EMAO viguesa. Su obra, colorista y orgánica, recorre desde lo más banal y cotidiano, a lo místico , lo existencial o lo político, siempre desde una perspectiva absurdista y misteriosa, utilizando la ironía y el humor como bálsamo.",
+            "proyectos": [
+                {
+                    "nombre": "Instalación Interactiva de Realidad Aumentada",
+                    "imagen": "../assets/img/realidad_aumentada.jpg",
+                    "descripcion": "Creación de una instalación de realidad aumentada que permite la interacción del espectador con la obra.",
+                    "categoria": "Mural",
+                    "direccion": "Rúa Lalín,1 36208, Vigo – Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Delio",
+            "descripcion": "Artista plástico natural de Vigo, comenzó a intervenir el espacio público a mediados de los 90 mediante el graffiti. Tras licenciarse en Bellas Artes con una beca de intercambio en México decidió viajar a América. En los últimos años ha desarrollado su carrera profesional entre México y España, colaborando en eventos de Arte Urbano y en proyectos de carácter social, participando en exposiciones, charlas y talleres en cooperación con colectivos, asociaciones civiles, y los gobiernos de distintos estados y comunidades. Intercala estas actividades realizando encargos de decoración mural, ilustración y dibujo.",
+            "proyectos": [
+                {
+                    "nombre": "Tipografía para Marca de Moda",
+                    "imagen": "../assets/img/tipografia_moda.jpg",
+                    "descripcion": "Diseño de una tipografía personalizada para una marca de moda de lujo.",
+                    "categoria": "Mural",
+                    "direccion": "Avenida Beiramar, 129 36208, Vigo – Pontevedra"
+                }
+            ]
+        },
+        {
+            "name": "Sax",
+            "descripcion": "Se inicia en el año 97 en la ciudad de Vigo. Es miembro de un colectivo de graffiteras a nivel mundial llamado Stick up Girlz. Con un extenso currículum en el sector del graffiti, cabe destacar su colaboración en eventos en contra de la violencia de género y a favor de la igualdad. Participante en Meeting of styles de Francia, Alemania e Italia, ganadora de una edición del concurso GalizaCrea, etc. Ha pintado en distintas ciudades por todo el mundo y trabaja como diseñadora para empresas, compaginándolo con su trabajo en el campo del tatuaje.",
+            "proyectos": [
+                {
+                    "nombre": "Ilustración Retro para Póster",
+                    "imagen": "../assets/img/poster_retro.jpg",
+                    "descripcion": "Ilustración estilo retro para un póster de una película clásica.",
+                    "categoria": "Graffiti",
+                    "direccion": " Avenida das Camelias, 47, 36211, Vigo – Pontevedra"
+                }
+            ]
+        }
+    ]
+}

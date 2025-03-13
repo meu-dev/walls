@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-login.css" />
+    <title>Agregar Artista</title>
+  </head>
+  <body>
+    <div class="container-login">
+      <article class="login">
+        <h1>Agregar Artista</h1>
+        <form
+          id="addArtistForm"
+          action="#"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="form">
+            <!-- Input para el nombre del artista -->
+            <input
+              type="text"
+              placeholder="Nombre del Artista"
+              id="nombreArtista"
+              required
+            />
+
+            <!-- Input para la dirección -->
+            <input
+              type="text"
+              placeholder="Dirección"
+              id="direccion"
+              required
+            />
+
+            <!-- Desplegable para la categoría -->
+            <select id="categoria" required>
+              <option value="">Seleccionar Categoría</option>
+              <option value="Ilustracion">ilustracion</option>
+              <option value="Mural">Mural</option>
+              <option value="grafitti">Grafitti</option>
+
+              <option value="otros">Otros</option>
+            </select>
+
+            <!-- Área de texto para la información del artista -->
+            <textarea
+              id="infoArtista"
+              placeholder="Información del Artista"
+              rows="4"
+              required
+            ></textarea>
+
+            <!-- Inputs para añadir hasta 3 fotografías -->
+            <input type="file" id="fotografia1" accept="image/*" />
+            <input type="file" id="fotografia2" accept="image/*" />
+            <input type="file" id="fotografia3" accept="image/*" />
+
+            <!-- Botón para agregar -->
+            <input class="btn" type="submit" value="Agregar Artista" />
+          </div>
+        </form>
+
+        <!-- Contenedor para los errores -->
+        <div id="errorContainer" style="color: red; display: none">
+          <p id="errorMessage"></p>
+        </div>
+      </article>
+    </div>
+    <!-- Barra de menú en la parte inferior -->
+    <div class="bottom-menu">
+      <!-- Icono Usuario -->
+      <a href="#" title="User">
+        <i class="bx bx-user"></i>
+      </a>
+      <!-- Icono Search -->
+      <a href="#" title="Search">
+        <i class="bx bx-search"></i>
+
+        <!-- Icono Añadir -->
+      </a>
+      <a href="#" title="Settings">
+        <i class="bx bx-book-add"></i>
+      </a>
+    </div>
+
+    <!-- Incluimos la librería jQuery desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/add-artist.js"></script>
+  </body>
+</html>

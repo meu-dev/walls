@@ -1,0 +1,174 @@
+
+:root {
+    /* Typography */
+    --font-swiza: "swiza", sans-serif;
+    --font-bulevard: "bulevard", sans-serif;
+    
+    /* Font Weights */
+    --swiza-thin: 200;
+    --swiza-extralight: 300;
+    --swiza-light: 400;
+    --swiza-regular: 500;
+    --swiza-medium: 600;
+    --swiza-semibold: 700;
+    --swiza-bold: 800;
+    
+    --bulevard-regular: 500;
+    --bulevard-poster: 800;
+}
+
+/* TYPEFACE SWIZA IMPORT */
+
+@font-face {
+    font-family: "swiza";
+    font-weight: 200;
+    src: url("../fonts/swiza/swiza-thin-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 300;
+    src: url("../fonts/swiza/swiza-extralight-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 400;
+    src: url("../fonts/swiza/swiza-light-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 500;
+    src: url("../fonts/swiza/swiza-regular-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 600;
+    src: url("../fonts/swiza/swiza-medium-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 700;
+    src: url("../fonts/swiza/swiza-semibold-webfont.woff2") format("woff2");
+   
+}
+@font-face {
+    font-family: "swiza";
+    font-weight: 800;
+    src: url("../fonts/swiza/swiza-bold-webfont.woff2") format("woff2");
+
+}
+
+/* TYPEFACE BULEVARD IMPORT */
+
+@font-face {
+    font-family: "bulevard";
+    font-weight: 800;
+    src: url("../fonts/bulevar/bulevar-poster-webfont.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: "bulevard";
+    font-weight: 500;
+    src: url("../fonts/bulevar/bulevar-regular-webfont.woff2") format("woff2");
+
+}
+
+
+   
+   .logo-principal{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-family: var(--font-bulevard);
+    color: #ec6356;
+    font-size: 3rem;
+   }
+   
+    .container{
+        position: relative;
+    }
+
+    .inicio {
+        top: 0;
+        left: 0;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ec6356;
+        z-index: 1000;
+        transition: top 1s ease-out;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+    
+    .logo span {
+        color: #eeb794;
+        font-family: var(--font-bulevard);
+        font-weight: var(--bulevard-poster);
+        font-size: 17rem;
+        display: inline-block;
+        opacity: 0;
+    }
+    
+    .logo span.active {
+        opacity: 1;
+        transition: ease-in-out 0.5s;
+    }
+    
+    .logo span.fade {
+        opacity: 0;
+        transition: ease-in-out 0.5s;
+    }
+
+#my_map {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+   z-index: -100;
+}
+
+/* Estilo para la barra de menú en la parte inferior */
+.bottom-menu {
+    display: flex;
+    justify-content: space-around; /* Espacio entre los iconos */
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+    
+.bottom-menu a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+    }
+    
+    .bottom-menu a:hover {
+        color: #f1c40f; /* Color al pasar el ratón sobre el icono */
+    }
+   
+

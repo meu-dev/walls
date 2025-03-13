@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.artist-detail-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    color: white;
+    font-size: 24px;
+}
+
+/* Artist Image */
+.artist-image {
+    height: 50vh;
+    background: #6B7280;
+    overflow: hidden;
+}
+
+.artist-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Artist Content */
+.artist-content {
+    padding: 20px;
+}
+
+.artist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.artist-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category {
+    color: #666;
+    font-size: 16px;
+}
+
+.artist-number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.artist-description {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Interaction Buttons */
+.interaction-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.like-btn, .share-btn {
+    padding: 8px 16px;
+    border: 1px solid #FF0000;
+    border-radius: 20px;
+    background: none;
+    color: #FF0000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.like-btn .count {
+    margin-left: 5px;
+}
+
+.globe-icon {
+    margin-left: auto;
+    font-size: 24px;
+    color: #666;
+}
+
+/* Artist Preview Stack */
+.artist-preview-stack {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+}
+
+.preview-item {
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preview-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.preview-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Bottom Menu */
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.bottom-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.dot.active {
+    background: white;
+}
