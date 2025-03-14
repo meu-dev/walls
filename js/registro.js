@@ -1,29 +1,35 @@
-$(document).ready(function() {
-    // Expresión regular para validar el correo electrónico
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+// Validación email por jquery
 
-    // Evento de clic en el botón de registro
-    $(".btn").click(function() {
-      const email = $("#email").val(); // Obtener el valor del campo de correo electrónico
-      const usuario = $("#usuario").val(); // Obtener el valor del campo de usuario
-      const pass = $("#pass").val(); // Obtener el valor del campo de contraseña
+$(document).ready(function () {
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-      // Ocultar los mensajes de error al hacer clic en el botón
-      $("#error").hide();
-      $("#emptyFieldsError").hide();
+  $(".btn").click(function () {
+    const email = $("#email").val();
+    const usuario = $("#usuario").val();
+    const pass = $("#pass").val();
 
-      // Validar que todos los campos estén llenos
-      if (usuario === "" || email === "" || pass === "") {
-        $("#emptyFieldsError").show(); // Mostrar mensaje de error si algún campo está vacío
-        return; // Salir de la función para no continuar con la validación de correo
-      }
+    // Ocultar los mensajes de error del html
+    $("#error").css("visibility", "hidden");
+    $("#empty-field-error").css("visibility", "hidden");
 
-      // Validar el correo electrónico
-      if (!emailRegex.test(email)) {
-        $("#error").show(); // Mostrar mensaje de error si el correo no es válido
-      } else {
-        alert("Formulario enviado correctamente.");
-        // Aquí podrías agregar lógica para enviar el formulario, por ejemplo, hacer un AJAX.
-      }
-    });
+    // Validar campos vacíos
+    if (usuario === "" || email === "" || pass === "") {
+      $("#empty-field-error").css("visibility", "visible");
+      return;
+    }
+
+    // Validar el mail si es un formato correcto
+    if (!emailRegex.test(email)) {
+      $("#error").css("visibility", "visible");
+    } else {
+      // to
+      alert("Formulario enviado correctamente.");
+    }
   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("btn-reg").addEventListener("click", function () {
+    window.location.href = "map.html";
+  });
+});

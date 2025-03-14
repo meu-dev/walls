@@ -1,135 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-artist.css">
-    <link rel="stylesheet" href="css/style-info-artist.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style-artist.css" />
+    <link rel="stylesheet" href="css/style-info-artist.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Artist Detail</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="artist-detail-container">
-        <!-- Close Button -->
-        <div class="close-btn">
-            <i class='bx bx-x'></i>
+      <!-- Close Button -->
+      <div class="close-btn">
+        <i class="bx bx-x"></i>
+      </div>
+
+      <!-- Artist Image -->
+      <div class="artist-image">
+        <div class="slider">
+          <div class="slide active">
+            <img src="/assets/img/Anna-Langehedt.jpg" alt="Artist Image 1" />
+          </div>
+          <div class="slide">
+            <img src="/assets/img/Anna-Langehedt-2.jpg" alt="Artist Image 2" />
+          </div>
+          <!-- Navigation dots -->
+          <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artist Info -->
+      <div class="artist-content">
+        <div class="artist-header">
+          <div class="artist-title">
+            <h1>Nombre Artista</h1>
+            <span class="category">Categoría</span>
+          </div>
+          <div class="artist-number">02</div>
         </div>
 
-               <!-- Artist Image -->
-               <div class="artist-image">
-                <div class="slider">
-                    <div class="slide active">
-                        <img src="/assets/img/Anna-Langehedt.jpg" alt="Artist Image 1">
-                    </div>
-                    <div class="slide">
-                        <img src="/assets/img/Anna-Langehedt-2.jpg" alt="Artist Image 2">
-                    </div>
-                    <!-- Navigation dots -->
-                    <div class="slider-dots">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
-            </div>
-
-        <!-- Artist Info -->
-        <div class="artist-content">
-            <div class="artist-header">
-                <div class="artist-title">
-                    <h1>Nombre Artista</h1>
-                    <span class="category">Categoría</span>
-                </div>
-                <div class="artist-number">02</div>
-            </div>
-
-            <div class="artist-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nulla nisi, condimentum non commodo id, mollis in ipsum. Donec non sem nibh. Nullam vehicula, leo id rutrum faucibus, quam augue pharetra quam, eget lobortis mauris augue id nulla.</p>
-            </div>
-
-            <!-- Interaction Buttons -->
-            <div class="interaction-buttons">
-                <button class="like-btn">
-                    <span>LIKE</span>
-                    <span class="count">300</span>
-                </button>
-                <button class="share-btn">SHARE</button>
-                <div class="globe-icon">
-                    <i class='bx bx-globe'></i>
-                </div>
-            </div>
+        <div class="artist-description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nulla
+            nisi, condimentum non commodo id, mollis in ipsum. Donec non sem
+            nibh. Nullam vehicula, leo id rutrum faucibus, quam augue pharetra
+            quam, eget lobortis mauris augue id nulla.
+          </p>
         </div>
 
-        <!-- Artist Preview Stack -->
-        <div class="artist-preview-stack">
-            <div class="preview-item" style="background-color: #FFD700">
-                <span class="preview-name">Nombre Artista</span>
-                <span class="preview-number">03</span>
-            </div>
-            <div class="preview-item" style="background-color: #FF6B6B">
-                <span class="preview-name">Nombre Artista</span>
-                <span class="preview-number">01</span>
-            </div>
+        <!--Btn interacción -->
+        <div class="interaction-buttons">
+          <button class="like-btn">
+            <span>LIKE</span>
+            <span class="count">300</span>
+          </button>
+          <button class="share-btn">SHARE</button>
+          <div class="globe-icon">
+            <i class="bx bx-globe"></i>
+          </div>
         </div>
+      </div>
 
-        <!-- Navegación -->
-        <div class="bottom-menu">
-            <a href="#" title="User">
-                <i class='bx bx-user'></i>
-            </a>
-            <a href="#" title="Search">
-                <i class='bx bx-search'></i>
-            </a>
-            <a href="#" title="Add">
-                <i class='bx bx-plus'></i>
-            </a>
-        </div>
-    </div>
+      <nav class="artist-preview-stack">
+        <!-- Previous Artist Section -->
+        <section class="preview-item" style="background-color: #ffd700">
+          <header class="preview-header">
+            <h2 class="preview-name">Nombre Artista</h2>
+            <span class="preview-number" aria-label="Artist number">03</span>
+          </header>
+        </section>
+
+        <!-- Next Artist Section -->
+        <section class="next-item" style="background-color: #ff6b6b">
+          <header class="next-header">
+            <h2 class="next-name">Nombre Artista</h2>
+            <span class="next-number" aria-label="Artist number">01</span>
+          </header>
+        </section>
+      </nav>
+
+         <!-- Barra de menú en la parte inferior -->
+    <nav class="bottom-menu">
+        <!-- Icono Usuario -->
+        <a href="user.html" title="User">
+          <i class="bx bx-user"></i>
+        </a>
+        <!-- Icono Search -->
+        <a href="artist.html" title="Search">
+          <i class="bx bx-search"></i>
+  
+          <!-- Icono Añadir -->
+        </a>
+        <a href="agregar.html" title="add-artist">
+          <i class="bx bx-book-add"></i>
+        </a>
+      <!-- Icono Map -->
+        <a href="map.html" title="map">
+          <i class="bx bx-map-alt"></i>
+        </a>
+      </nav>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-          // Esperar a que la página cargue
-          $(document).ready(function() {
-            // Cuando hacemos click en un punto
-            $('.dot').click(function() {
-                // Guardar cual punto clickeamos
-                let puntoClickeado = $(this).index();
-                
-                // Ocultar todas las imágenes
-                $('.slide').removeClass('active');
-                // Desactivar todos los puntos
-                $('.dot').removeClass('active');
-                
-                // Mostrar la imagen que queremos
-                $('.slide').eq(puntoClickeado).addClass('active');
-                // Activar el punto que clickeamos
-                $(this).addClass('active');
-            });
+      // Cargar página
+      $(document).ready(function () {
+        // Cuando hacemos click en un punto
+        $(".dot").click(function () {
+          // Guardar click del punto
+          let puntoClickeado = $(this).index();
 
-            // Cambiar imagen automáticamente
-            function cambiarImagen() {
-                // Ver qué imagen está activa
-                let imagenActual = $('.slide.active').index();
-                // Calcular siguiente imagen
-                let siguienteImagen = imagenActual + 1;
-                
-                // Si llegamos al final, volver al principio
-                if (siguienteImagen >= $('.slide').length) {
-                    siguienteImagen = 0;
-                }
-                
-                // Ocultar todas las imágenes
-                $('.slide').removeClass('active');
-                // Desactivar todos los puntos
-                $('.dot').removeClass('active');
-                
-                // Mostrar siguiente imagen
-                $('.slide').eq(siguienteImagen).addClass('active');
-                // Activar siguiente punto
-                $('.dot').eq(siguienteImagen).addClass('active');
-            }
+          // Ocultar todas las imágenes
+          $(".slide").removeClass("active");
+          // Desactivar todos los puntos
+          $(".dot").removeClass("active");
 
-            // Ejecutar cambio cada 30 segundos
-            setInterval(cambiarImagen, 30000);
+          // Mostrar la imagen que queremos
+          $(".slide").eq(puntoClickeado).addClass("active");
+          // Activar el punto que clickeamos
+          $(this).addClass("active");
         });
+
+        // Cambiar imagen automáticamente
+        function cambiarImagen() {
+          // Ver qué imagen está activa
+          let imagenActual = $(".slide.active").index();
+          //  siguiente imagen
+          let siguienteImagen = imagenActual + 1;
+
+          // Si llegamos al final, volver al principio bucle
+          if (siguienteImagen >= $(".slide").length) {
+            siguienteImagen = 0;
+          }
+
+          // Ocultar todas las imágenes
+          $(".slide").removeClass("active");
+          // Desactivar todos los puntos
+          $(".dot").removeClass("active");
+
+          // Mostrar siguiente imagen
+          $(".slide").eq(siguienteImagen).addClass("active");
+          // Activar siguiente punto
+          $(".dot").eq(siguienteImagen).addClass("active");
+        }
+
+        // Cambio de fotografía cada 30 deg
+        setInterval(cambiarImagen, 30000);
+      });
     </script>
-</body>
+  </body>
 </html>

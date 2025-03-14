@@ -1,80 +1,67 @@
-<<<<<<< HEAD
 function loguear() {
   const user = document.getElementById("usuario").value;
   const password = document.getElementById("pass").value;
-  const errorContainer = document.getElementById("errorContainer");
-  const errorMessage = document.getElementById("errorMessage");
+  const errorContainer = document.getElementById("error-container");
+  const errorMessage = document.getElementById("error-sms");
 
   // Validar si los campos están vacíos
   if (user === "" || password === "") {
     errorMessage.textContent = "Por favor, ingresa usuario y contraseña.";
-    errorContainer.style.display = "block"; // Mostrar el mensaje de error
-    return; // Detener la ejecución si hay campos vacíos
+    errorContainer.style.visibility = "visible";
+    return;
   }
 
-  // Verificar los datos correctos (Con backen)
+  // Verificar los datos correctos
   if (user === "user" && password === "12345") {
-    // Almacenar el estado de autenticación en localStorage
-    localStorage.setItem("authenticated", "true");
-    // Redirigir al usuario a index.html si los datos son correctos
-    window.location = "index.html";
+    // Redirigir al usuario a map.html si los datos son correctos
+    window.location.href = "map.html";
   } else {
-    // Si los datos son incorrectos, muestra este
+    // Si los datos son incorrectos, muestra este mensaje
     errorMessage.textContent =
       "Datos incorrectos. Por favor, verifica tu usuario y contraseña.";
-    errorContainer.style.display = "block"; // Mostrar el mensaje de error
+    errorContainer.style.visibility = "visible";
   }
 }
 
 const passwordInput = document.getElementById("pass");
+const togglePassword = document.getElementById("togglePassword");
 
-// Evento para detectar el clic en el input (cuando se hace clic en el icono del ojo)
-passwordInput.addEventListener("click", () => {
-  // Si la contraseña está oculta, la mostramos
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text"; // Muestra la contraseña
-    passwordInput.classList.add("show-pass"); // Cambia el icono
-  } else {
-    passwordInput.type = "password"; // Oculta la contraseña
-    passwordInput.classList.remove("show-pass"); // Restaura el icono original
-  }
+// Cuando el usuario hace click en el icono del ojo, se ejecuta la función. para el cambio de input e icono
+togglePassword.addEventListener("click", () => {
+  // Aquí si el tipo de input es paassword, se cambia a text, si no, se cambia a password
+  passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+  // Aqui agrega el estilo para cambiar el ojo
+  togglePassword.classList.toggle("bx-hide");
+  togglePassword.classList.toggle("bx-show");
 });
 
-// Expresión regular para validar el correo electrónico
-const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
+// validación del correo electrónico
 $(document).ready(function () {
-  // Evento de envío del formulario
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
   $("#emailForm").submit(function (event) {
-    event.preventDefault(); // Prevenir el envío del formulario por defecto
+    event.preventDefault();
 
-    const email = $("#email").val(); // Obtener el valor del campo de correo
+    const email = $("#email").val();
+    const usuario = $("#usuario").val();
+    const password = $("#pass").val();
 
-    // Validar el correo electrónico
-    if (emailRegex.test(email)) {
-      alert("Correo electrónico válido!");
-      $("#error").hide(); // Ocultar el mensaje de error
+    // Verificar campos vacíos
+    if (!email || !usuario || !password) {
+      $("#empty-field-error").css("visibility", "visible");
+      $("#error").css("visibility", "hidden");
+      return;
+    }
+
+    // Validar formato de email
+    if (!emailRegex.test(email)) {
+      $("#error").css("visibility", "visible");
+      $("#empty-field-error").css("visibility", "hidden");
     } else {
-      $("#error").show(); // Mostrar el mensaje de error
+      $("#error").css("visibility", "hidden");
+      $("#empty-field-error").css("visibility", "hidden");
+      // Aquí puedes agregar el código para procesar el registro
+      console.log("Registro OK");
     }
   });
 });
-=======
-function loguear()
-{
-
-    const user=document.getElementById('usuario').value;
-    const password=document.getElementById('pass').value;
-
-
-    if(user == 'user' && password == "12345")
-    {
-        window.location="index.html";
-    }
-    else
-    {
-        alert("Datos incorrectos")
-    }
-
-}
->>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692

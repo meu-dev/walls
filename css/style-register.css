@@ -1,9 +1,5 @@
-@media (max-width: 767.98px) {
-    body {
-        font-family: swiza;
-        background-color: grey
-    }
-    
+@import 'variables.css';
+
     .container-login{
         height: 100vh;
         display:flex;
@@ -17,11 +13,12 @@
             height: 850px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             padding-bottom: 5rem;
             h1{
-                font-weight: 800;
+                font-family: var(--font-swiza);
+                font-weight: var(--swiza-bold);
                 font-size: 3rem;
             }
       
@@ -52,13 +49,12 @@
         text-transform: uppercase;
 
     }
-<<<<<<< HEAD
 
-    #error, #emptyFieldsError {
+    #error, #empty-field-error{
+        font-size: 0.6rem;
         color: red;
-        display: none;
+        visibility: hidden;
       }
-=======
->>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
+
+    
            
-    }

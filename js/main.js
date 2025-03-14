@@ -1,18 +1,17 @@
-<<<<<<< HEAD
 // INICIO MAPA
 let map = L.map("my_map").setView([42.23662, -8.72617], 16);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; 2025 all rights reserved",
 }).addTo(map);
-// Custom marker icon for proof
+// Marcador personalizado
 const customIcon = L.icon({
   iconUrl: "../assets/img/paint-roller-bucket-icon.svg",
   iconSize: [60, 70],
   iconAnchor: [15, 40],
   popupAnchor: [0, -40],
 });
-// Custom marker icon for proof
+// Marcador personalizado para prueba
 const customIconProof = L.icon({
   iconUrl: "../assets/img/paint-roller-bucket-icon-2.svg",
   iconSize: [80, 90],
@@ -81,41 +80,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2300);
   }, 500);
 });
-=======
-let map = L.map('my_map').setView([42.23662, -8.72617], 16)
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; 2025 all rights reserved'
-}).addTo(map);
-
-
-const intro = document.querySelector('.inicio')
-
-const logo = document.querySelector('.logo-principal')
-const logoSpan = document.querySelector('.logo')
-
-window.addEventListener('DOMcontentLoad', () => {
-    setTimeout(()=> {
-        logoSpan.forEach((span, idx)=>{
-            setTimoout(()=>{
-                span.classList.add('active');
-            }, (dx + 1) * 400)
-        });
-        setTimeout(()=> {
-            logoSpan.forEach((span, idx)=>{
-                setTimoout(()=>{
-                    span.classList.remove('active');
-                    span.classList.add('fade');
-                }, (idx + 1) * 50)
-            })
-
-        },2000);
-
-        setTimeout(()=> {
-        intro.style.top = "-100vh";
-
-        },2300);
-    })
-
-})
->>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692

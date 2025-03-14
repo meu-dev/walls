@@ -1,19 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
+@import 'variables.css';
 
 .artist-detail-container {
     min-height: 100vh;
     position: relative;
 }
 
-/* Close Button */
+/* btn cerrar */
 .close-btn {
     position: absolute;
     top: 20px;
@@ -23,7 +15,7 @@ body {
     font-size: 24px;
 }
 
-/* Artist Image */
+/* Imagen Artista */
 .artist-image {
     height: 50vh;
     background: #6B7280;
@@ -36,7 +28,7 @@ body {
     object-fit: cover;
 }
 
-/* Artist Content */
+/* Info artista */
 .artist-content {
     padding: 20px;
 }
@@ -70,7 +62,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Interaction Buttons */
+/* Botones */
 .interaction-buttons {
     display: flex;
     align-items: center;
@@ -97,7 +89,7 @@ body {
     color: #666;
 }
 
-/* Artist Preview Stack */
+/* Artist Preview y Next */
 .artist-preview-stack {
     position: fixed;
     bottom: 60px;
@@ -105,7 +97,7 @@ body {
     right: 0;
 }
 
-.preview-item {
+.preview-item, .next-item {
     padding: 20px;
     color: white;
     display: flex;
@@ -113,12 +105,12 @@ body {
     align-items: center;
 }
 
-.preview-name {
+.preview-name, .next-name{
     font-size: 18px;
     font-weight: bold;
 }
 
-.preview-number {
+.preview-number, .next-number{
     font-size: 24px;
     font-weight: bold;
 }
@@ -141,7 +133,7 @@ body {
     font-size: 24px;
 }
 
-
+/* Slider */
 
 .slider {
     position: relative;

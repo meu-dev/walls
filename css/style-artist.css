@@ -1,4 +1,4 @@
-
+@import 'variables.css';
 
 .search-container {
     max-width: 430px;
@@ -8,9 +8,9 @@
     position: relative;
 }
 
-/* Search Bar Styles */
+
 .search-bar {
-    padding: 15px 20px;
+    padding: 0.9 1.25 rem;
     display: flex;
     align-items: center;
     background: white;
@@ -26,7 +26,7 @@
     border: none;
     border-radius: 25px;
     padding: 0 40px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .search-bar i.bx-search {
@@ -64,6 +64,7 @@
 }
 
 .artist-info h2 {
+    font-family: var(--font-swiza);
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -102,10 +103,6 @@
 .nav-item:hover {
     color: #ddd;
 }
-
-
-
-
 
 .filter-section {
     padding: 10px 15px;

@@ -1,90 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""
-    />
-    <title>walls</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-login.css" />
   </head>
   <body>
-    <div class="logo-principal">
-      <p>WALLS</p>
-    </div>
+    <!-- Form para realizar login-->
+    <div class="container-login">
+      <article class="login">
+        <h1>login</h1>
+        <form action="">
+          <div class="form">
+            <input type="text" placeholder="Usuario" id="usuario" />
 
-    <!-- Container que contine las letras del logo para animación -->
-    <div class="container">
-      <div class="inicio">
-        <div class="logo">
-          <span>W</span>
-          <span>A</span>
-          <span>L</span>
-          <span>L</span>
-          <span>S</span>
+            <div class="password-container">
+              <input
+                type="password"
+                placeholder="contraseña"
+                class="pass"
+                id="pass"
+              />
+              <i class="bx bx-hide password-toggle" id="togglePassword"></i>
+            </div>
+            <input
+              class="btn"
+              type="button"
+              value="Entrar"
+              onclick="loguear()"
+            />
+          </div>
+        </form>
+        <!-- Contenedor de errores -->
+        <div id="error-container" style="color: red; display: none">
+          <p id="error-sms"></p>
         </div>
-      </div>
-    </div>
-    <div id="my_map"></div>
-
-    <!-- Barra de menú en la parte inferior -->
-    <div class="bottom-menu">
-      <!-- Icono Usuario -->
-      <a href="#" title="User">
-        <i class="bx bx-user"></i>
-      </a>
-      <!-- Icono Search -->
-      <a href="#" title="Search">
-        <i class="bx bx-search"></i>
-
-        <!-- Icono Añadir -->
-      </a>
-      <a href="#" title="Settings">
-        <i class="bx bx-book-add"></i>
-      </a>
+        <div class="register-item">
+          <p class="text-reg">
+            ¿No Tienes cuenta? Registrate <a href="register.html">aquí</a>
+          </p>
+        </div>
+      </article>
     </div>
 
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
-    <script src="js/main.js"></script>
+    <!-- Incluimos liobrería jQuery desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <title>walls</title>
-</head>
-<body>
-    <di class="container">
-    <div class="inicio">
-        <h1 class="logo-principal">
-            <span class="logo">WALLS</span>
-        </h1>
-    </div>
-
-    <div id="my_map"></div>
-    </div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="js/main.js" >
-
-    </script>
-</body>
-</html>
->>>>>>> 55c63b5e977ea231fbaff22fbe417603b02c3692
