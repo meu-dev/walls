@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #ec6356; /* Color de fondo */
+        background-color: #ec6356; 
         z-index: 1;
         transition: top 1s ease-out;
     
@@ -67,6 +67,7 @@
 
 }
 input{
+    font-family: var(--font-swiza);
 
 margin-bottom: 1rem;
 background-color: transparent;
@@ -82,17 +83,18 @@ width: 100%;
 }
 
 ::placeholder{
-    color: lightgrey;
+    color: black;
     font-family: var(--font-swiza);
 }
 
 select {
+    font-family: var(--font-swiza);
     margin-bottom: 1rem;
     background-color: transparent;
     border-radius: 20px;
     border: 1.5px solid black;
     box-sizing: border-box;
-    color: #eee;
+    color: black;
     font-size: 1rem;
     padding: 10px;
     width: 100%;
@@ -100,18 +102,20 @@ select {
 
 /* Estilo para las opciones dentro del select */
 select option {
+    font-family: var(--font-swiza);
     background-color: black;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
 textarea {
+    font-family: var(--font-swiza);
     margin-bottom: 1rem;
     background-color: transparent;
     border-radius: 20px;
     border: 1.5px solid black;
     box-sizing: border-box;
-    color: #eee;
+    color: balck;
     font-size: 1rem;
     padding: 10px;
     width: 100%;
@@ -120,10 +124,11 @@ textarea {
 
 /* Estilo del placeholder dentro del textarea */
 textarea::placeholder {
-    color: lightgrey;
-    font-family: swiza;
+    color: black;
+    font-family: var(--font-swiza);
 }
 .btn{
+    font-family: var(--font-swiza);
     background-color: black;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;

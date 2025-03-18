@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.jpg" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style-artist.css" />
+    <link rel="stylesheet" href="css/style-info-artist.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Artist Detail</title>
+  </head>
+  <body>
+    <div class="artist-detail-container">
+      <!-- Close Button -->
+      <div class="close-btn">
+        <i class="bx bx-x"></i>
+      </div>
+
+      <!-- Artist Image -->
+      <div class="artist-image">
+        <div class="slider">
+          <div class="slide active">
+            <img src="/assets/img/Anna-Langehedt.jpg" alt="Artist Image 1" />
+          </div>
+          <div class="slide">
+            <img src="/assets/img/Anna-Langehedt-2.jpg" alt="Artist Image 2" />
+          </div>
+          <!-- Navigation dots -->
+          <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artist Info -->
+      <div class="artist-content">
+        <div class="artist-header">
+          <div class="artist-title">
+            <h1>Ana Langeheldt</h1>
+            <span class="category">Mural</span>
+          </div>
+          <div class="artist-number">02</div>
+        </div>
+
+        <div class="artist-description">
+          <p>
+            Es una artista plástica multidisciplinar residente en Sevilla. Mujer pionera y referente en el arte urbano de España desde el año 2001, donde también es conocida como Lahe178, abreviatura de su apellido de ascendente alemán. Su trayectoria como artista urbana se desarrolla paralelamente a su faceta como artista plástica, la cual se desarrolla desde edad muy temprana, licenciándose en Bellas Artes en 2003, en la universidad de Sevilla. Ha trabajado para marcas y empresas como Festival de cine europeo de Sevilla, Freixenet, Anaya, etc; participado en numerosos proyectos y exhibiciones como B-murals Barcelona, Rexenerafest Coruña, etc. Su arte es una mezcla de estilos y colores. Prefiere todo tipo de arte en el que sea imprescindible el contacto físico con la materia. Actualmente reside y trabaja en su estudio de Sevilla.
+          </p>
+        </div>
+
+        <!--Btn interacción -->
+        <div class="interaction-buttons">
+          <button class="like-btn">
+            <span>LIKE</span>
+            <span class="count">300</span>
+          </button>
+          <button class="share-btn">SHARE</button>
+          <div class="globe-icon">
+            <i class="bx bx-globe" onclick="window.location.href='map.html#anna=42.25139203963025,-8.698357016943074'"></i>
+          </div>
+        </div>
+      </div>
+
+      <nav class="artist-preview-stack">
+        <!-- Previous Artist Section -->
+        <section class="preview-item" style="background-color: #ffd700">
+          <header class="preview-header">
+            <h2 class="preview-name">Nombre Artista</h2>
+            <span class="preview-number" aria-label="Artist number">03</span>
+          </header>
+        </section>
+
+        <!-- Next Artist Section -->
+        <section class="next-item" style="background-color: #ff6b6b">
+          <header class="next-header">
+            <h2 class="next-name">Nombre Artista</h2>
+            <span class="next-number" aria-label="Artist number">01</span>
+          </header>
+        </section>
+      </nav>
+
+         <!-- Barra de menú en la parte inferior -->
+    <nav class="bottom-menu">
+        <!-- Icono Usuario -->
+        <a href="user.html" title="User">
+          <i class="bx bx-user"></i>
+        </a>
+        <!-- Icono Search -->
+        <a href="artist.html" title="Search">
+          <i class="bx bx-search"></i>
+  
+          <!-- Icono Añadir -->
+        </a>
+        <a href="agregar.html" title="add-artist">
+          <i class="bx bx-book-add"></i>
+        </a>
+      <!-- Icono Map -->
+        <a href="map.html" title="map">
+          <i class="bx bx-map-alt"></i>
+        </a>
+      </nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slider.js"></script>
+    
+    </script>
+  </body>
+</html>

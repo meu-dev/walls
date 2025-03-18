@@ -3,76 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.jpg" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style-artist.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <title>Artist Directory</title>
   </head>
   <body>
-    <main class="search-container">
-      <header>
-        <form class="search-bar" role="search">
-          <i class="bx bx-search"></i>
-          <input type="search" placeholder="Buscar..." />
-          <i class="bx bx-x" id="close-btn"></i>
-        </form>
+    <div id="app">
+      <main class="search-container">
+        <header>
+          <form class="search-bar" role="search" @submit.prevent>
+            <i class="bx bx-search"></i>
+            <input
+              type="search"
+              v-model="searchQuery"
+              placeholder="Buscar..."
+            />
+            <i
+              class="bx bx-x"
+              id="close-btn"
+              @click="searchQuery = ''"
+              v-show="searchQuery"
+            ></i>
+          </form>
 
-        <nav class="filter-section">
-          <ul class="filter-scroll">
-            <li><button class="filter-btn active">All</button></li>
-            <li><button class="filter-btn">Street Art</button></li>
-            <li><button class="filter-btn">Murales</button></li>
-            <li><button class="filter-btn">Graffiti</button></li>
-            <li><button class="filter-btn">Ilustración</button></li>
-          </ul>
+          <nav class="filter-section">
+            <ul class="filter-scroll">
+              <li v-for="category in categories" :key="category">
+                <button
+                  class="filter-btn"
+                  :class="{ active: selectedCategory === category }"
+                  @click="selectedCategory = category"
+                >
+                  {{ category }}
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <section class="artists-list">
+          <article
+            v-for="artist in filteredArtists"
+            :key="artist.name"
+            class="artist-card"
+          >
+            <div class="artist-info">
+              <h2>{{ artist.name }}</h2>
+              <address>{{ artist.proyectos[0].direccion }}</address>
+            </div>
+            <a :href="artist.proyectos[0].url" class="globe-icon">
+              <i class="bx bx-globe"></i>
+            </a>
+          </article>
+        </section>
+
+        <!-- Bottom menu remains unchanged -->
+        <nav class="bottom-menu">
+          <a href="user.html" title="User"><i class="bx bx-user"></i></a>
+          <a href="artist.html" title="Search"><i class="bx bx-search"></i></a>
+          <a href="agregar.html" title="add-artist"
+            ><i class="bx bx-book-add"></i
+          ></a>
+          <a href="map.html" title="map"><i class="bx bx-map-alt"></i></a>
         </nav>
-      </header>
+      </main>
+    </div>
 
-      <section class="artists-list">
-        <article class="artist-card">
-          <div class="artist-info">
-            <h2>Artista 1</h2>
-            <address>Avenida Balaidos, 60 7b 36210 vigo Pontevedra</address>
-          </div>
-          <a href="#" class="globe-icon">
-            <i class="bx bx-globe"></i>
-          </a>
-        </article>
+    <script>
+      const { createApp } = Vue;
 
-        <article class="artist-card">
-          <div class="artist-info">
-            <h2>Artista 2</h2>
-            <address>Avenida Balaidos, 60 7b 36210 vigo Pontevedra</address>
-          </div>
-          <a href="#" class="globe-icon">
-            <i class="bx bx-globe"></i>
-          </a>
-        </article>
-      </section>
-
-      <!-- Barra de menú en la parte inferior -->
-      <nav class="bottom-menu">
-        <!-- Icono Usuario -->
-        <a href="user.html" title="User">
-          <i class="bx bx-user"></i>
-        </a>
-        <!-- Icono Search -->
-        <a href="artist.html" title="Search">
-          <i class="bx bx-search"></i>
-
-          <!-- Icono Añadir -->
-        </a>
-        <a href="agregar.html" title="add-artist">
-          <i class="bx bx-book-add"></i>
-        </a>
-        <!-- Icono Map -->
-        <a href="map.html" title="map">
-          <i class="bx bx-map-alt"></i>
-        </a>
-      </nav>
-    </main>
+      createApp({
+        data() {
+          return {
+            artists: [],
+            searchQuery: "",
+            selectedCategory: "All",
+            categories: [
+              "All",
+              "Street Art",
+              "Murales",
+              "Graffiti",
+              "Ilustración",
+            ],
+          };
+        },
+        computed: {
+          filteredArtists() {
+            return this.artists.filter((artist) => {
+              const matchesSearch = artist.name
+                .toLowerCase()
+                .includes(this.searchQuery.toLowerCase());
+              const matchesCategory =
+                this.selectedCategory === "All" ||
+                artist.proyectos.some((p) =>
+                  p.categoria.includes(this.selectedCategory)
+                );
+              return matchesSearch && matchesCategory;
+            });
+          },
+        },
+        async mounted() {
+          try {
+            const response = await fetch("data.json");
+            const data = await response.json();
+            this.artists = data.artistas;
+          } catch (error) {
+            console.error("Error loading artists:", error);
+          }
+        },
+      }).mount("#app");
+    </script>
   </body>
 </html>

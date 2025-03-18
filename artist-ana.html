@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.jpg" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style-artist.css" />
     <link rel="stylesheet" href="css/style-info-artist.css" />
@@ -40,18 +41,15 @@
       <div class="artist-content">
         <div class="artist-header">
           <div class="artist-title">
-            <h1>Nombre Artista</h1>
-            <span class="category">Categoría</span>
+            <h1>Ana Langeheldt</h1>
+            <span class="category">Mural</span>
           </div>
           <div class="artist-number">02</div>
         </div>
 
         <div class="artist-description">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nulla
-            nisi, condimentum non commodo id, mollis in ipsum. Donec non sem
-            nibh. Nullam vehicula, leo id rutrum faucibus, quam augue pharetra
-            quam, eget lobortis mauris augue id nulla.
+            Es una artista plástica multidisciplinar residente en Sevilla. Mujer pionera y referente en el arte urbano de España desde el año 2001, donde también es conocida como Lahe178, abreviatura de su apellido de ascendente alemán. Su trayectoria como artista urbana se desarrolla paralelamente a su faceta como artista plástica, la cual se desarrolla desde edad muy temprana, licenciándose en Bellas Artes en 2003, en la universidad de Sevilla. Ha trabajado para marcas y empresas como Festival de cine europeo de Sevilla, Freixenet, Anaya, etc; participado en numerosos proyectos y exhibiciones como B-murals Barcelona, Rexenerafest Coruña, etc. Su arte es una mezcla de estilos y colores. Prefiere todo tipo de arte en el que sea imprescindible el contacto físico con la materia. Actualmente reside y trabaja en su estudio de Sevilla.
           </p>
         </div>
 
@@ -63,7 +61,7 @@
           </button>
           <button class="share-btn">SHARE</button>
           <div class="globe-icon">
-            <i class="bx bx-globe"></i>
+            <i class="bx bx-globe" onclick="window.location.href='map.html#anna=42.25139203963025,-8.698357016943074'"></i>
           </div>
         </div>
       </div>
@@ -107,51 +105,8 @@
         </a>
       </nav>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      // Cargar página
-      $(document).ready(function () {
-        // Cuando hacemos click en un punto
-        $(".dot").click(function () {
-          // Guardar click del punto
-          let puntoClickeado = $(this).index();
-
-          // Ocultar todas las imágenes
-          $(".slide").removeClass("active");
-          // Desactivar todos los puntos
-          $(".dot").removeClass("active");
-
-          // Mostrar la imagen que queremos
-          $(".slide").eq(puntoClickeado).addClass("active");
-          // Activar el punto que clickeamos
-          $(this).addClass("active");
-        });
-
-        // Cambiar imagen automáticamente
-        function cambiarImagen() {
-          // Ver qué imagen está activa
-          let imagenActual = $(".slide.active").index();
-          //  siguiente imagen
-          let siguienteImagen = imagenActual + 1;
-
-          // Si llegamos al final, volver al principio bucle
-          if (siguienteImagen >= $(".slide").length) {
-            siguienteImagen = 0;
-          }
-
-          // Ocultar todas las imágenes
-          $(".slide").removeClass("active");
-          // Desactivar todos los puntos
-          $(".dot").removeClass("active");
-
-          // Mostrar siguiente imagen
-          $(".slide").eq(siguienteImagen).addClass("active");
-          // Activar siguiente punto
-          $(".dot").eq(siguienteImagen).addClass("active");
-        }
-
-        // Cambio de fotografía cada 30 deg
-        setInterval(cambiarImagen, 30000);
-      });
+    <script src="js/slider.js"></script>
+    
     </script>
   </body>
 </html>

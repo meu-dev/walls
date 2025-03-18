@@ -9,8 +9,9 @@
                     "nombre": "Mural-v1",
                     "imagen": "../assets/img/exiles_02.jpg",
                     "descripcion": "Este proyecto nace de un interés personal en la historia del fútbol y de dar a conocer los inicios de este deporte no sólo en Galicia, sino también a nivel nacional. El Exiles Football Club, de ahora en adelante Exiles F.C., se fundó a finales del siglo XIX en Vigo por un grupo de trabajadores ingleses que se trasladó a Galicia para ejecutar el mantenimiento del Cable Inglés.",
-                    "categoria": "Mural/ilustracion",
-                    "direccion": "Fonte do Luns – Matamá, Rúa do Castro, 19, 36213 Vigo, Pontevedra"
+                    "categoria": "Murales",
+                    "direccion": "Fonte do Luns – Matamá, Rúa do Castro, 19, 36213 Vigo, Pontevedra",
+                     "url":"artist-eva.html"
                 }
             ]
         },
@@ -22,8 +23,9 @@
                     "nombre": "Mural-V2",
                     "imagen": "../assets/img/campaña_xyz.jpg",
                     "descripcion": "Una campaña visual para la marca XYZ, donde se combinan técnicas tradicionales con digitalización avanzada para crear un impacto visual único.",
-                    "categoria": "Mural/ilustracion",
-                    "direccion": "Rúa Robleda, 118, Teis, 36207 Vigo, Pontevedra"
+                    "categoria": "ilustracion",
+                    "direccion": "Rúa Robleda, 118, Teis, 36207 Vigo, Pontevedra",
+                    "url":"artist-pablo.html"
                 } 
             ]
         },
@@ -35,8 +37,9 @@
                     "nombre": "Mural-v3",
                     "imagen": "../assets/img/startup.jpg",
                     "descripcion": "Rediseño de la marca para una nueva start-up, con un enfoque fresco y vanguardista.",
-                    "categoria": "Mural",
-                    "direccion": "Rúa Ourense, 14, Freixeiro, 36211 Vigo, Pontevedra"
+                    "categoria": "Murales",
+                    "direccion": "Rúa Ourense, 14, Freixeiro, 36211 Vigo, Pontevedra",
+                     "url":"artist-zesar.html"
                 }
             ]
         },
@@ -48,8 +51,9 @@
                     "nombre": "Diseño Editorial para Revista Cultural",
                     "imagen": "../assets/img/revista_cultural.jpg",
                     "descripcion": "Diseño y maquetación para una revista cultural enfocada en las artes y la literatura.",
-                    "categoria": "Mural",
-                    "direccion": "Rúa dos Irmáns Misioneiros dos Enfermos Pobres, 12, Teis, 36207 Vigo, Pontevedra"
+                    "categoria": "Murales",
+                    "direccion": "Rúa dos Irmáns Misioneiros dos Enfermos Pobres, 12, Teis, 36207 Vigo, Pontevedra",
+                     "url":"artist-ana.html"
                 }
             ]
         },
@@ -61,8 +65,9 @@
                     "nombre": "Instalación Mural Interactivo",
                     "imagen": "../assets/img/mural_interactivo.jpg",
                     "descripcion": "Creación de un mural interactivo que permite al público participar activamente en la obra.",
-                    "categoria": "Mural/ilustracion",
-                    "direccion": "Rúa da Travesía de Vigo, 222, Teis, 36207 Vigo"
+                    "categoria": "Street Art",
+                    "direccion": "Rúa da Travesía de Vigo, 222, Teis, 36207 Vigo",
+                     "url":"artist-expostas.html"
                 }
             ]
         },
@@ -74,8 +79,9 @@
                     "nombre": "Arte Conceptual para Videojuego",
                     "imagen": "../assets/img/concepto_videojuego.jpg",
                     "descripcion": "Diseño de personajes y escenarios para un videojuego de aventura.",
-                    "categoria": "Concept Art",
-                    "direccion": " Freijeiro, 36204 Vigo, Pontevedra"
+                    "categoria": "Street Art",
+                    "direccion": " Freijeiro, 36204 Vigo, Pontevedra",
+                     "url":"artist-victor.html"
                 }
             ]
         },
@@ -88,7 +94,8 @@
                     "imagen": "../assets/img/libro_infantil.jpg",
                     "descripcion": "Ilustración para un cuento infantil que combina técnicas tradicionales y digitales.",
                     "categoria": "Ilustración",
-                    "direccion": "Ilustración"
+                    "direccion": "Ilustración",
+                     "url":"artist-slim.html"
                 }
             ]
         },
@@ -100,8 +107,9 @@
                     "nombre": "Rediseño de Marca para Restaurante",
                     "imagen": "../assets/img/restaurante_marca.jpg",
                     "descripcion": "Rediseño completo de la marca de un restaurante, desde el logotipo hasta el diseño del menú y material de marketing.",
-                    "categoria": "Branding",
-                    "direccion": "Av. de Castelao, 26, Coia, 36208 Vigo, Pontevedra"
+                    "categoria": "Murales",
+                    "direccion": "Av. de Castelao, 26, Coia, 36208 Vigo, Pontevedra",
+                     "url":"artist-vanesa.html"
                 }
             ]
         },
@@ -114,7 +122,8 @@
                     "imagen": "../assets/img/comic_fantastico.jpg",
                     "descripcion": "Ilustración para un cómic de fantasía que transporta al lector a un mundo épico y lleno de aventuras.",
                     "categoria": "Ilustración",
-                    "direccion": "Estrada de Clara Campoamor, s/n, 36315 Valadares, Pontevedra"
+                    "direccion": "Estrada de Clara Campoamor, s/n, 36315 Valadares, Pontevedra",
+                     "url":"artist-iria.html"
                 }
             ]
         },
@@ -126,8 +135,9 @@
                     "nombre": "Instalación Interactiva de Realidad Aumentada",
                     "imagen": "../assets/img/realidad_aumentada.jpg",
                     "descripcion": "Creación de una instalación de realidad aumentada que permite la interacción del espectador con la obra.",
-                    "categoria": "Mural",
-                    "direccion": "Rúa Lalín,1 36208, Vigo – Pontevedra"
+                    "categoria": "Grafitti",
+                    "direccion": "Rúa Lalín,1 36208, Vigo – Pontevedra",
+                    "url":"artist-avione.html"
                 }
             ]
         },
@@ -139,8 +149,9 @@
                     "nombre": "Tipografía para Marca de Moda",
                     "imagen": "../assets/img/tipografia_moda.jpg",
                     "descripcion": "Diseño de una tipografía personalizada para una marca de moda de lujo.",
-                    "categoria": "Mural",
-                    "direccion": "Avenida Beiramar, 129 36208, Vigo – Pontevedra"
+                    "categoria": "Street Art",
+                    "direccion": "Avenida Beiramar, 129 36208, Vigo – Pontevedra",
+                     "url":"artist-delio.html"
                 }
             ]
         },
@@ -153,7 +164,8 @@
                     "imagen": "../assets/img/poster_retro.jpg",
                     "descripcion": "Ilustración estilo retro para un póster de una película clásica.",
                     "categoria": "Graffiti",
-                    "direccion": " Avenida das Camelias, 47, 36211, Vigo – Pontevedra"
+                    "direccion": " Avenida das Camelias, 47, 36211, Vigo – Pontevedra",
+                     "url":"artist-sax.html"
                 }
             ]
         }

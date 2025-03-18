@@ -101,7 +101,7 @@
 /* Estilo para la barra de menú en la parte inferior */
 .bottom-menu {
     display: flex;
-    justify-content: space-around; /* Espacio entre los iconos */
+    justify-content: space-around; 
     align-items: center;
     background-color: black;
     padding: 10px 0;
@@ -128,4 +128,10 @@
    
 
    
+
+
+    .custom-popup .leaflet-popup-content {
+        margin: 10px;
+        min-width: 200px;
+      }
 

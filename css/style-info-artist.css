@@ -41,22 +41,30 @@
 }
 
 .artist-title h1 {
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-light);
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .category {
-    color: #666;
-    font-size: 16px;
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-light);
+    color: #FF0000;
+    font-size: 1rem;
 }
 
 .artist-number {
-    font-size: 32px;
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-light);
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .artist-description {
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-light);
     color: #444;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -99,18 +107,22 @@
 
 .preview-item, .next-item {
     padding: 20px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .preview-name, .next-name{
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-bold);
     font-size: 18px;
     font-weight: bold;
 }
 
 .preview-number, .next-number{
+    font-family: var(--font-swiza);
+    font-weight: var(--swiza-regular);
     font-size: 24px;
     font-weight: bold;
 }
@@ -179,3 +191,29 @@
 .dot.active {
     background: white;
 }
+
+/* Estilos delscroll */
+.artist-description {
+    max-height: 150px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin: 20px 0;
+  }
+  
+  .artist-description::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .artist-description::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .artist-description::-webkit-scrollbar-thumb {
+    background: #ec6356;
+    border-radius: 10px;
+  }
+  
+  .artist-description::-webkit-scrollbar-thumb:hover {
+    background: #d45347;
+  }
