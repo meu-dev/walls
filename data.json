@@ -8,7 +8,7 @@
                 {
                     "nombre": "Mural-v1",
                     "imagen": "../assets/img/exiles_02.jpg",
-                    "descripcion": "Este proyecto nace de un interés personal en la historia del fútbol y de dar a conocer los inicios de este deporte no sólo en Galicia, sino también a nivel nacional. El Exiles Football Club, de ahora en adelante Exiles F.C., se fundó a finales del siglo XIX en Vigo por un grupo de trabajadores ingleses que se trasladó a Galicia para ejecutar el mantenimiento del Cable Inglés.",
+                   
                     "categoria": "Murales",
                     "direccion": "Fonte do Luns – Matamá, Rúa do Castro, 19, 36213 Vigo, Pontevedra",
                      "url":"artist-eva.html"
@@ -22,7 +22,7 @@
                 {
                     "nombre": "Mural-V2",
                     "imagen": "../assets/img/campaña_xyz.jpg",
-                    "descripcion": "Una campaña visual para la marca XYZ, donde se combinan técnicas tradicionales con digitalización avanzada para crear un impacto visual único.",
+                  
                     "categoria": "ilustracion",
                     "direccion": "Rúa Robleda, 118, Teis, 36207 Vigo, Pontevedra",
                     "url":"artist-pablo.html"
@@ -36,7 +36,7 @@
                 {
                     "nombre": "Mural-v3",
                     "imagen": "../assets/img/startup.jpg",
-                    "descripcion": "Rediseño de la marca para una nueva start-up, con un enfoque fresco y vanguardista.",
+                   
                     "categoria": "Murales",
                     "direccion": "Rúa Ourense, 14, Freixeiro, 36211 Vigo, Pontevedra",
                      "url":"artist-zesar.html"
@@ -48,9 +48,9 @@
             "descripcion": "Es una artista plástica multidisciplinar residente en Sevilla. Mujer pionera y referente en el arte urbano de España desde el año 2001, donde también es conocida como Lahe178, abreviatura de su apellido de ascendente alemán. Su trayectoria como artista urbana se desarrolla paralelamente a su faceta como artista plástica, la cual se desarrolla desde edad muy temprana, licenciándose en Bellas Artes en 2003, en la universidad de Sevilla. Ha trabajado para marcas y empresas como Festival de cine europeo de Sevilla, Freixenet, Anaya, etc; participado en numerosos proyectos y exhibiciones como B-murals Barcelona, Rexenerafest Coruña, etc. Su arte es una mezcla de estilos y colores. Prefiere todo tipo de arte en el que sea imprescindible el contacto físico con la materia. Actualmente reside y trabaja en su estudio de Sevilla.",
             "proyectos": [
                 {
-                    "nombre": "Diseño Editorial para Revista Cultural",
+                    "nombre": "Mural-v4",
                     "imagen": "../assets/img/revista_cultural.jpg",
-                    "descripcion": "Diseño y maquetación para una revista cultural enfocada en las artes y la literatura.",
+                
                     "categoria": "Murales",
                     "direccion": "Rúa dos Irmáns Misioneiros dos Enfermos Pobres, 12, Teis, 36207 Vigo, Pontevedra",
                      "url":"artist-ana.html"
@@ -62,9 +62,9 @@
             "descripcion": "Es un proyecto nacido de la colaboración de diferentes mujeres relacionadas con el arte urbano, el activismo a través del arte y el cambio social. No solo es interesante, si no necesario, analizar como se aborda tradicionalmente la naturaleza de la representación femenina en el arte contemporáneo en general , y en el arte urbana en particular. La importancia de analizar la representación de la mujer en el arte urbano y de buscar formas de figuración que contribuyan al empoderamiento de la mujer a través del arte, radica en el hecho de que las imágenes son herramientas efectivas para crear, reproducir y transmitir significados.",
             "proyectos": [
                 {
-                    "nombre": "Instalación Mural Interactivo",
+                    "nombre": "Mural-v5",
                     "imagen": "../assets/img/mural_interactivo.jpg",
-                    "descripcion": "Creación de un mural interactivo que permite al público participar activamente en la obra.",
+                  
                     "categoria": "Street Art",
                     "direccion": "Rúa da Travesía de Vigo, 222, Teis, 36207 Vigo",
                      "url":"artist-expostas.html"
@@ -76,7 +76,7 @@
             "descripcion": "Victor García, es un artista multidisciplinar que tiñe de color los espacios deportivos y edificios en desuso. Le gusta pintar en el suelo y jugar con la pintura. “Play in colors” es la técnica de este artista malagueño. Pinta en cualquier tipo de superficie como las pintas deportivas que son de hormigón gris y se asemejan a un lienzo. Estudió Marketing y Relaciones públicas, pero lleva pintando desde los 10 años y el graffiti siempre ha estado en su vida. Se ha formado en Barcelona y Estados Unidos. Entre sus trabajos está el silo de Archidona que ha llenado de color el pueblo.",
             "proyectos": [
                 {
-                    "nombre": "Arte Conceptual para Videojuego",
+                    "nombre": "Mural-v6",
                     "imagen": "../assets/img/concepto_videojuego.jpg",
                     "descripcion": "Diseño de personajes y escenarios para un videojuego de aventura.",
                     "categoria": "Street Art",
@@ -90,7 +90,7 @@
             "descripcion": "Nacido en Barcelona y licenciado en Bellas Artes. A los 12 años comenzó a adentrarse en el universo del arte urbano y la pintura. Su nombre está presente tanto a nivel nacional como internacional. Su obra y su investigación pictórica representan la búsqueda constante de una visión personal y representativa de los aspectos sociales que considera significativos a su alrededor, a través de un lenguaje pictórico figurativo, realista y de carácter neo impresionista. Muralista y pintor, interesado principalmente en el arte urbano y las intervenciones en el espacio público, sus obras son pinturas de gran formato que utilizan las paredes de las calles como lienzo. Trabaja temas ligados a lo cotidiano utilizando un lenguaje visual que pueda generar conciencia. Los principales temas de su obra giran en torno a la educación, el adoctrinamiento y el comportamiento humano y su relación con las figuras de poder que lo rodean. ",
             "proyectos": [
                 {
-                    "nombre": "Ilustración para Libro Infantil",
+                    "nombre": "Mural-v7",
                     "imagen": "../assets/img/libro_infantil.jpg",
                     "descripcion": "Ilustración para un cuento infantil que combina técnicas tradicionales y digitales.",
                     "categoria": "Ilustración",
@@ -104,9 +104,9 @@
             "descripcion": "Es una artista gráfica de Vigo que vive y trabaja en New York, donde realiza proyectos como muralista, centrados en la visibilización de la mujer a través del arte urbano. Titulada en Artes plásticas y diseño. Partició en festivales artísticos y literarios en Vigo (Kerouac, Vigo cidade de cor), Madrid (Pintamalasaña) o Nueva York (Casa Galicia, Instituto Cervantes), entre otros.  Actualmente imparte clases de muralismo y justicia social en el barrio del Bronx y realizó la residencia artística Project Art USA. Pintó un colorido lienzo de 2200 metros en el pavimento de las calles peatonales entre Broadway y Union Square West que homenajea a los inmigrantes, a las madres y a los nativos americanos, también conciencia contra el cambio climático. Se confiesa creyente en el poder curativo del arte y del color.",
             "proyectos": [
                 {
-                    "nombre": "Rediseño de Marca para Restaurante",
+                    "nombre": "Mural-v7",
                     "imagen": "../assets/img/restaurante_marca.jpg",
-                    "descripcion": "Rediseño completo de la marca de un restaurante, desde el logotipo hasta el diseño del menú y material de marketing.",
+                 
                     "categoria": "Murales",
                     "direccion": "Av. de Castelao, 26, Coia, 36208 Vigo, Pontevedra",
                      "url":"artist-vanesa.html"
@@ -120,7 +120,7 @@
                 {
                     "nombre": "Ilustración para Cómic Fantástico",
                     "imagen": "../assets/img/comic_fantastico.jpg",
-                    "descripcion": "Ilustración para un cómic de fantasía que transporta al lector a un mundo épico y lleno de aventuras.",
+                  
                     "categoria": "Ilustración",
                     "direccion": "Estrada de Clara Campoamor, s/n, 36315 Valadares, Pontevedra",
                      "url":"artist-iria.html"
@@ -148,7 +148,7 @@
                 {
                     "nombre": "Tipografía para Marca de Moda",
                     "imagen": "../assets/img/tipografia_moda.jpg",
-                    "descripcion": "Diseño de una tipografía personalizada para una marca de moda de lujo.",
+              
                     "categoria": "Street Art",
                     "direccion": "Avenida Beiramar, 129 36208, Vigo – Pontevedra",
                      "url":"artist-delio.html"
@@ -162,7 +162,7 @@
                 {
                     "nombre": "Ilustración Retro para Póster",
                     "imagen": "../assets/img/poster_retro.jpg",
-                    "descripcion": "Ilustración estilo retro para un póster de una película clásica.",
+                 
                     "categoria": "Graffiti",
                     "direccion": " Avenida das Camelias, 47, 36211, Vigo – Pontevedra",
                      "url":"artist-sax.html"

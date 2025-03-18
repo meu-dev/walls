@@ -60,10 +60,10 @@ const annaMarker = L.marker([42.25139203963025, -8.698357016943074], {
 annaMarker.bindPopup(`
     <div class="marker-popup">
       <h3>Ana Langeheldt</h3>
-      <img src="assets/img/revista_cultural.jpg" alt="Ana's Work" style="width:100%;margin:10px 0;">
+      <img src="assets/img/anna-langehedt.jpg" alt="Ana's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa dos Irmáns Misioneiros dos Enfermos Pobres, 12, Teis</p>
       <P></P>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-ana.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -78,7 +78,7 @@ expostasMarker.bindPopup(`
       <h3>Expostas</h3>
       <img src="../assets/img/expostas-2.jpg" alt="Expostas Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa da Travesía de Vigo, 222, Teis</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-expostas.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -91,7 +91,7 @@ evaMarker.bindPopup(`
       <h3>Eva Casais</h3>
       <img src="../assets/img/eva-casais.jpg" alt="Eva's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Fonte do Luns – Matamá, Rúa do Castro, 19</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-eva.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -104,7 +104,7 @@ loyolaMarker.bindPopup(`
       <h3>Pablo Loyola</h3>
       <img src="../assets/img/loyola.jpg" alt="Loyola's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa Robleda, 118, Teis</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-pablo.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -117,7 +117,7 @@ playMarker.bindPopup(`
       <h3>Victor Playincolors</h3>
       <img src="../assets/img/playincolors.jpg" alt="Play's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-play.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -129,10 +129,10 @@ const slimMarker = L.marker([42.214109816551954, -8.747251008594489], {
 
 slimMarker.bindPopup(`
     <div class="marker-popup">
-      <h3>Victor Playincolors</h3>
+      <h3>Slim</h3>
       <img src="../assets/img/slim-2.jpeg" alt="Play's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-slim.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -143,10 +143,10 @@ const avioneMarker = L.marker([42.227326339484605, -8.754615898147627], {
 }).addTo(map);
 avioneMarker.bindPopup(`
     <div class="marker-popup">
-      <h3>Victor Playincolors</h3>
-      <img src="assets/img/concepto_videojuego.jpg" alt="Play's Work" style="width:100%;margin:10px 0;">
+      <h3>Avione</h3>
+      <img src="assets/img/avione.jpg" alt="Play's Work" style="width:100%;margin:10px 0;">
       <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
-      <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+      <button onclick="window.location.href='artist-avione.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
         <i class='bx bx-info-circle'></i> Ver Perfil
       </button>
     </div>
@@ -158,9 +158,9 @@ const delioMarker = L.marker([42.22739335183532, -8.7546367554964], {
 delioMarker.bindPopup(`
       <div class="marker-popup">
         <h3>Delio</h3>
-        <img src="../assets/img/delio-1.jpg" alt="Delio's Work" style="width:100%;margin:10px 0;">
+        <img src="../assets/img/delio-2.jpg" alt="Delio's Work" style="width:100%;margin:10px 0;">
         <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
-        <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+        <button onclick="window.location.href='artist-delio.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
           <i class='bx bx-info-circle'></i> Ver Perfil
         </button>
       </div>
@@ -175,8 +175,22 @@ saxMarker.bindPopup(`
         <h3>Sax</h3>
         <img src="../assets/img/sax-1.jpg" alt="Sax's Work" style="width:100%;margin:10px 0;">
         <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
-        <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+        <button onclick="window.location.href='artist-sax.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
           <i class='bx bx-info-circle'></i> Ver Perfil
         </button>
       </div>
     `);
+
+const iriaMarker = L.marker([42.214109816551954, -8.747251008594489], {
+  icon: customIcon,
+}).addTo(map);
+iriaMarker.bindPopup(`
+        <div class="marker-popup">
+          <h3>Iria</h3>
+          <img src="../assets/img/iriafafian.jpg" alt="Sax's Work" style="width:100%;margin:10px 0;">
+          <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
+          <button onclick="window.location.href='artist.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
+            <i class='bx bx-info-circle'></i> Ver Perfil
+          </button>
+        </div>
+      `);
