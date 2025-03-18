@@ -17,9 +17,9 @@
     <div class="container-login">
       <article class="login">
         <h1>login</h1>
-        <form action="">
+        <form id="loginForm">
           <div class="form">
-            <input type="text" placeholder="Usuario" id="usuario" />
+            <input type="text" placeholder="Usuario" id="usuario" required />
 
             <div class="password-container">
               <input
@@ -27,19 +27,15 @@
                 placeholder="contraseña"
                 class="pass"
                 id="pass"
+                required
               />
               <i class="bx bx-hide password-toggle" id="togglePassword"></i>
             </div>
-            <input
-              class="btn"
-              type="button"
-              value="Entrar"
-              onclick="loguear()"
-            />
+            <input class="btn" type="submit" value="Entrar" />
           </div>
         </form>
-        <!-- Contenedor de errores -->
-        <div id="error-container" style="color: red; display: none">
+        <!-- Error container -->
+        <div id="error-container" style="visibility: hidden">
           <p id="error-sms"></p>
         </div>
         <div class="register-item">

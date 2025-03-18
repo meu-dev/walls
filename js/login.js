@@ -1,3 +1,13 @@
+//
+document.addEventListener("DOMContentLoaded", function () {
+  const loginForm = document.getElementById("loginForm");
+
+  loginForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    loguear();
+  });
+});
+
 function loguear() {
   const user = document.getElementById("usuario").value;
   const password = document.getElementById("pass").value;
@@ -13,16 +23,13 @@ function loguear() {
 
   // Verificar los datos correctos
   if (user === "user" && password === "12345") {
-    // Redirigir al usuario a map.html si los datos son correctos
     window.location.href = "map.html";
   } else {
-    // Si los datos son incorrectos, muestra este mensaje
     errorMessage.textContent =
       "Datos incorrectos. Por favor, verifica tu usuario y contraseña.";
     errorContainer.style.visibility = "visible";
   }
 }
-
 const passwordInput = document.getElementById("pass");
 const togglePassword = document.getElementById("togglePassword");
 
