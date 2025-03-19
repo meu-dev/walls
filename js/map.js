@@ -173,7 +173,7 @@ const saxMarker = L.marker([42.230548087269526, -8.729902657670763], {
 saxMarker.bindPopup(`
       <div class="marker-popup">
         <h3>Sax</h3>
-        <img src="../assets/img/sax-1.jpg" alt="Sax's Work" style="width:100%;margin:10px 0;">
+        <img src="../assets/img/sax-2.jpg" alt="Sax's Work" style="width:100%;margin:10px 0;">
         <p><strong>Dirección:</strong> Rúa Ourense, 14, Freixeiro</p>
         <button onclick="window.location.href='artist-sax.html'" style="background:#ec6356;color:white;border:none;padding:8px 15px;border-radius:5px;margin-top:10px;">
           <i class='bx bx-info-circle'></i> Ver Perfil
